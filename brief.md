@@ -18,10 +18,18 @@ iOS App Transport Security (ATS) requires secure connections that meet Apple's t
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 
 ## Networking
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses, providing a much larger address space. IPv6 was designed to support the continued growth of internet-connected devices. For a government AI service, reliable networking helps the mobile app communicate with backend APIs and retrieve information. IPv6 adoption does not automatically make a network more secure; correct configuration, access controls, and monitoring remain necessary.
+Resource: RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification - https://datatracker.ietf.org/doc/html/rfc8200
 
 ## Cybersecurity
 
+Prompt injection occurs when malicious instructions are supplied through user input or external content in an attempt to influence an AI system's behavior. Direct injection may appear in a user's prompt, while indirect injection may be hidden in retrieved documents or other content. A government assistant should treat retrieved text as untrusted, restrict tools to necessary permissions, validate actions, and avoid exposing sensitive data. No single defense guarantees complete protection.
+Resource: OWASP Prompt Injection - https://owasp.org/www-community/attacks/PromptInjection
+
 ## Data
+
+Anonymisation aims to prevent individuals from being identified from a dataset, whereas pseudonymisation replaces direct identifiers with substitutes. Pseudonymised information may still identify someone if additional information is available, so it should not automatically be treated as anonymous. A government AI assistant should minimise the personal data it collects, restrict access to chat logs, define retention periods, and assess re-identification risks before using data for analysis or model improvement.
+Resource: ICO - Anonymisation - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/
 
 ## Misconception in My Track
 
