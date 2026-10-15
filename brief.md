@@ -32,6 +32,8 @@ Anonymisation aims to prevent individuals from being identified from a dataset, 
 Resource: ICO - Anonymisation - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/
 
 ## Misconception in My Track
+A common misconception is that increasing the MAJOR version number is necessary for every software update. In Semantic Versioning, backward-compatible new functionality normally increases MINOR, and backward-compatible bug fixes increase PATCH. MAJOR is required when a change breaks compatibility with the public API. Choosing the correct version helps teams communicate risk and avoid unexpected failures in dependent applications.
+Resource: Semantic Versioning 2.0.0 - https://semver.org/
 
 ## Open Question
- 
+ How can a government team introduce breaking API changes to its AI assistant while maintaining reliable service for citizens using older versions of the mobile application?
